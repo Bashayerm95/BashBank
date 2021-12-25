@@ -1,0 +1,78 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "fullName_",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "profession_",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "dateOfBirth_",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "customer_addr_",
+				"type": "string"
+			}
+		],
+		"name": "register_account",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "recipient",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "transfer",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "withdraw1",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	},
+	{
+		"inputs": [],
+		"name": "get_balance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
